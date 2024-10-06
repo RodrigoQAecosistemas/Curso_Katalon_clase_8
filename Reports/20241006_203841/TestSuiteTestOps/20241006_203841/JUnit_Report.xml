@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuiteTestOps" time="30.054" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuiteTestOps" tests="1" failures="0" errors="0" time="30.054" skipped="0" timestamp="06-10-2024T20:38:49" hostname="admin - NTK2055" id="Test Suites/TestSuiteTestOps">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\Curso_Katalon_clase_8\\Reports\\20241006_203841\\TestSuiteTestOps\\20241006_203841"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\Curso_Katalon_clase_8\\Reports\\20241006_203841\\TestSuiteTestOps\\20241006_203841\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - NTK2055"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+         <property name="browser" value="Chrome 129.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.78"/>
+         <property name="sessionId" value="b0b06b660265fae933caf7295d342a55"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login" time="29.621" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[06-10-2024T20:38:50 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+06-10-2024T20:38:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-10-2024T20:38:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-10-2024T20:38:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-10-2024T20:38:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-10-2024T20:38:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+06-10-2024T20:38:59 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+06-10-2024T20:38:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+06-10-2024T20:39:17 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+06-10-2024T20:39:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+06-10-2024T20:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+06-10-2024T20:39:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+06-10-2024T20:39:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+06-10-2024T20:39:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link"), 0): Object 'Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+06-10-2024T20:39:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-10-2024T20:39:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/a_Swag Labs_shopping_cart_link' is present
+
+06-10-2024T20:39:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-10-2024T20:39:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-10-2024T20:38:49 - [TEST_SUITE][PASSED] - TestSuiteTestOps: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
